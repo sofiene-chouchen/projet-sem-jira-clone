@@ -24,7 +24,7 @@ export default function NavBare() {
       <NavBar>
         <Container>
           <Link to="/dashboard">
-            <Logo>Jira proxymIT</Logo>
+            <Logo>Jira</Logo>
           </Link>
           {user.role === 'ADMIN' ? (
             <Links>
